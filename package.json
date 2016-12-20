@@ -1,0 +1,42 @@
+{
+  "name": "jitz-master",
+  "version": "1.0.0",
+  "description": "Jitz master app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "coffee",
+    "shop",
+    "local"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "^1.10.2",
+    "connect-flash": "*",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "dotenv": "^2.0.0",
+    "express": "^4.11.1",
+    "express-handlebars": "^3.0.0",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-stormpath": "^3.1.7",
+    "express-validator": "*",
+    "mongodb": "^2.2.16",
+    "mongoose": "^4.7.3",
+    "morgan": "~1.7.0",
+    "nodemon": "^1.11.0",
+    "passport": "*",
+    "passport-facebook": "~1.0.2",
+    "passport-http": "*",
+    "passport-local": "*",
+    "passport-twitter": "~1.0.2",
+    "serve-favicon": "~2.3.0"
+
+  }
+}

@@ -1,0 +1,64 @@
+/* Space out content a bit */
+body {
+  background: url("http://www.siwallpaperhd.com/wp-content/uploads/2015/09/coffee_computer_wallpaper.jpg");
+  margin: auto;
+  /* Set a specific height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #1a1b1c;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  overflow-y: scroll;
+
+}
+
+footer {
+  margin-top: 40px;
+}
+h1 {
+  text-align: right;
+  font-size: 50px;
+  font-family: 'Lobster', cursive;
+}
+
+h2 {
+  text-align: center;
+  font-size: 38px;
+  font-family: 'Lobster Two', cursive;
+	margin:0 0 .5em 0;
+}
+a {
+  color: #00B7FF;
+}
+#mainLogo {
+	float: right;
+  width: 25%;
+  height: 200px;
+  margin-right: 200px;
+}
+
+#brandImg {
+	height: 40px;
+	width: 100px;
+}
+#map {
+        height:500px;
+        width:550px;
+        border: solid;
+        border-color: #c6b111;
+    }
+    .gm-style-iw * {
+        display: block;
+        width: 100%;
+    }
+    .gm-style-iw h4, .gm-style-iw p {
+        margin: 0;
+        padding: 0;
+    }
+    .gm-style-iw a {
+        color: #4272db;
+    }
